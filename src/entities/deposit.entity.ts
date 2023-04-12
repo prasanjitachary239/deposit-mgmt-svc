@@ -25,6 +25,9 @@ export class Deposit {
   @Column({ name: "rate_of_interest", nullable: false})
   rateOfInterest: number;
 
+  @Column({ name: "account_number", nullable: false})
+  accountNumber: number;
+
   @Column({ name: "is_deleted", nullable: false})
   isDeleted: boolean;
 
